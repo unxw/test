@@ -1,60 +1,82 @@
-<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Line Rider</title>
-    <meta name="author" content="Emergent Studios">
-    <meta name="description" content="Play Line Rider for free! Line Rider is a classic sandbox game where you draw a track for the sledder to ride on. Simple concept, endless possibilities, oddly addicting!" />
+<head>
+<title>Happy Wheels HTML5 - Levan Kipshidze</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Line Rider">
-    <meta property="og:title" content="Line Rider" />
-    <meta property="og:description" content="Play Line Rider for free! Line Rider is a classic sandbox game where you draw a track for the sledder to ride on. Simple concept, endless possibilities, oddly addicting!" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.linerider.com" />
+    <style>
+        body {
+            overflow: hidden;
+            background-color: black;
+        }
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
 
-    <meta name="twitter:image:src" content="https://www.linerider.com/_v1887.0/social.png" />
-    <meta name="twitter:image:width" content="1200" />
-    <meta name="twitter:image:height" content="630" />
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: ¦666666; 
+        }
+        
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: ¦CCCCCC; 
+        }
 
-    <meta property="og:image" content="https://www.linerider.com/_v1887.0/social.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: ¦CCCCCC; 
+        }
 
-    <meta name="apple-itunes-app" content="app-id=1475853607">
-    <style type="text/css">
-      body {
-        margin: 0;
-      }
-      #initial-loading-text {
-        font-family: sans-serif;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+        /* stupid firefox */
+        html {scrollbar-color: ¦CCCCCC ¦666666; scrollbar-width: thin; background-color: black;}
     </style>
 
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body oncontextmenu="return false;">
+    <script>
+        function report_loading_issue() {
+            var el = document.createElement("img");
+            el.src = "/DEBUG2/wrong-ref.png?wl=" + window.location + "&wpl=" + window.parent.location + "&wlh=" + window.location.host + "&wplh=" + window.parent.location.host;
+            el.style.position = "absolute";
+            el.style.left = "-9999px";
+            el.style.top = "-9999px";
+            document.body.appendChild(el);
+        }
+		const pathToMyURL = 'https://www-sites-opensocial.googleusercontent.com/gadgets/proxy/refresh=3600&container=enterprise/https://totaljerkface.com/get_level.hw';
+		
 
-    <link rel="preload" href="/_v1887.0/bosh-sprite.svg" as="fetch" crossorigin>
-    <link rel="preload" href="/_v1887.0/test-lines.png" as="image" >
+        (function() {
+            window["HW_SETTINGS"] = {};
+            if(!(window.location != window.parent.location && window.location.host === "totaljerkface.com" && window.parent.location.host === "totaljerkface.com")) {
+            }
 
-    <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;</script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
 
-    <script> 
-    !function(){var e=document.createElement("script");if(!("noModule"in e)&&"onbeforeload"in e){var t=!1;document.addEventListener("beforeload",function(n){if(n.target===e)t=!0;else if(!n.target.hasAttribute("nomodule")||!t)return;n.preventDefault()},!0),e.type="module",e.src=".",document.head.appendChild(e),e.remove()}}();
+            var d_el = document.createElement("script");
+			
+            d_el.src = "js/dependencies.ac8072eb8a22557c1b4828699b35bec7.js";
+            d_el.onload = function() {
+                var i_el = document.createElement("script");
+                i_el.src = "js/index.js";
+                // i_el.integrity = "sha384-GKAptyGydgK2fCaxFPGnAip+60TiYdFsB22A5ax8TB2dqT8ockqX1XI1rsr6fJIH";
+                i_el.onload = function() {
+                    document.getElementById("loading-indicator").remove();
+                }
+
+                document.body.appendChild(i_el);
+            }
+            document.body.appendChild(d_el);
+        })();
     </script>
 
-    <script type="module" src="/_v1887.0/main.js" crossorigin></script>
-    <script defer nomodule src="/_v1887.0/main.legacy.js"></script>
-  </head>
-  <body>
-    <div id="content">
-      <div id="initial-loading-text">Loading...</div>
+    <div id="og-game-holder">
+        <p style="color:white" id="loading-indicator">Loading...</p>
     </div>
-  </body>
+	
+		
+</body>
 </html>
