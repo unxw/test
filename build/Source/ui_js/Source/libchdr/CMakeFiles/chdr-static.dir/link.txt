@@ -1,0 +1,2 @@
+/workspaces/test/emsdk/upstream/emscripten/emar qc libchdr-static.a  CMakeFiles/chdr-static.dir/src/libchdr_bitstream.c.o CMakeFiles/chdr-static.dir/src/libchdr_cdrom.c.o CMakeFiles/chdr-static.dir/src/libchdr_chd.c.o CMakeFiles/chdr-static.dir/src/libchdr_file.c.o CMakeFiles/chdr-static.dir/src/libchdr_flac.c.o CMakeFiles/chdr-static.dir/src/libchdr_huffman.c.o
+/workspaces/test/emsdk/upstream/emscripten/emranlib libchdr-static.a

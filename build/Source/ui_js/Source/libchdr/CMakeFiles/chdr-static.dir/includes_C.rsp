@@ -1,0 +1,1 @@
+-I/workspaces/test/Play-/deps/libchdr/lzma -I/workspaces/test/Play-/deps/libchdr/zlib -I/workspaces/test/Play-/build/Source/ui_js/Source/libchdr/include -I/workspaces/test/Play-/deps/libchdr/include -I/workspaces/test/Play-/deps/libchdr/deps/lzma-19.00/include -I/workspaces/test/Play-/deps/libchdr/deps/zlib-1.2.11 

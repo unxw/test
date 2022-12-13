@@ -1,0 +1,1 @@
+/workspaces/test/emsdk/upstream/emscripten/emcc -O3 -DNDEBUG   @CMakeFiles/chdr-benchmark.dir/objects1.rsp  -o chdr-benchmark.js @CMakeFiles/chdr-benchmark.dir/linklibs.rsp

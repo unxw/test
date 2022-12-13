@@ -1,0 +1,2 @@
+/workspaces/test/emsdk/upstream/emscripten/emar qc libgsh_opengl.a  CMakeFiles/gsh_opengl.dir/GSH_OpenGL.cpp.o CMakeFiles/gsh_opengl.dir/GSH_OpenGL_Shader.cpp.o CMakeFiles/gsh_opengl.dir/GSH_OpenGL_Texture.cpp.o
+/workspaces/test/emsdk/upstream/emscripten/emranlib libgsh_opengl.a

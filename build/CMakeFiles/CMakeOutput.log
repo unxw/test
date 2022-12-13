@@ -1,0 +1,245 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.4.0-1094-azure - x86_64
+Performing C SOURCE FILE Test C_FLAG_WALL succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a690e/fast && /usr/bin/make -f CMakeFiles/cmTC_a690e.dir/build.make CMakeFiles/cmTC_a690e.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a690e.dir/src.c.o
+/workspaces/test/emsdk/upstream/emscripten/emcc   -DC_FLAG_WALL   -Wall -o CMakeFiles/cmTC_a690e.dir/src.c.o   -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.c
+shared:INFO: (Emscripten: Running sanity checks)
+Linking C executable cmTC_a690e.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a690e.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/emcc  -DC_FLAG_WALL    @CMakeFiles/cmTC_a690e.dir/objects1.rsp  -o cmTC_a690e.js 
+cache:INFO: generating system asset: symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt... (this will be cached in "/workspaces/test/emsdk/upstream/emscripten/cache/symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt" for subsequent builds)
+cache:INFO:  - ok
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1cdd2/fast && /usr/bin/make -f CMakeFiles/cmTC_1cdd2.dir/build.make CMakeFiles/cmTC_1cdd2.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1cdd2.dir/src.cxx.o
+/workspaces/test/emsdk/upstream/emscripten/em++    -fexceptions -pthread -DCXX_FLAG_WALL   -Wall -std=gnu++17 -o CMakeFiles/cmTC_1cdd2.dir/src.cxx.o -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1cdd2.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cdd2.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/em++   -fexceptions -pthread -DCXX_FLAG_WALL    @CMakeFiles/cmTC_1cdd2.dir/objects1.rsp  -o cmTC_1cdd2.js 
+cache:INFO: generating system asset: symbol_lists/ef588f15e799a15d43aab6e810f252b1b213e3d3.txt... (this will be cached in "/workspaces/test/emsdk/upstream/emscripten/cache/symbol_lists/ef588f15e799a15d43aab6e810f252b1b213e3d3.txt" for subsequent builds)
+cache:INFO:  - ok
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_50d38/fast && /usr/bin/make -f CMakeFiles/cmTC_50d38.dir/build.make CMakeFiles/cmTC_50d38.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50d38.dir/src.c.o
+/workspaces/test/emsdk/upstream/emscripten/emcc   -Wall -DC_FLAG_WEXTRA   -Wextra -o CMakeFiles/cmTC_50d38.dir/src.c.o   -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_50d38.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50d38.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/emcc  -Wall -DC_FLAG_WEXTRA    @CMakeFiles/cmTC_50d38.dir/objects1.rsp  -o cmTC_50d38.js 
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_911cb/fast && /usr/bin/make -f CMakeFiles/cmTC_911cb.dir/build.make CMakeFiles/cmTC_911cb.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_911cb.dir/src.cxx.o
+/workspaces/test/emsdk/upstream/emscripten/em++    -fexceptions -pthread -Wall -DCXX_FLAG_WEXTRA   -Wextra -std=gnu++17 -o CMakeFiles/cmTC_911cb.dir/src.cxx.o -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_911cb.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_911cb.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/em++   -fexceptions -pthread -Wall -DCXX_FLAG_WEXTRA    @CMakeFiles/cmTC_911cb.dir/objects1.rsp  -o cmTC_911cb.js 
+cache:INFO: generating system asset: symbol_lists/e70753ffc2106e4c161887782a2f909ce5e69434.txt... (this will be cached in "/workspaces/test/emsdk/upstream/emscripten/cache/symbol_lists/e70753ffc2106e4c161887782a2f909ce5e69434.txt" for subsequent builds)
+cache:INFO:  - ok
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WUNDEF succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_13067/fast && /usr/bin/make -f CMakeFiles/cmTC_13067.dir/build.make CMakeFiles/cmTC_13067.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13067.dir/src.c.o
+/workspaces/test/emsdk/upstream/emscripten/emcc   -Wall -Wextra -DC_FLAG_WUNDEF   -Wundef -o CMakeFiles/cmTC_13067.dir/src.c.o   -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_13067.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13067.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/emcc  -Wall -Wextra -DC_FLAG_WUNDEF    @CMakeFiles/cmTC_13067.dir/objects1.rsp  -o cmTC_13067.js 
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WUNDEF succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df4a3/fast && /usr/bin/make -f CMakeFiles/cmTC_df4a3.dir/build.make CMakeFiles/cmTC_df4a3.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df4a3.dir/src.cxx.o
+/workspaces/test/emsdk/upstream/emscripten/em++    -fexceptions -pthread -Wall -Wextra -DCXX_FLAG_WUNDEF   -Wundef -std=gnu++17 -o CMakeFiles/cmTC_df4a3.dir/src.cxx.o -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_df4a3.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df4a3.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/em++   -fexceptions -pthread -Wall -Wextra -DCXX_FLAG_WUNDEF    @CMakeFiles/cmTC_df4a3.dir/objects1.rsp  -o cmTC_df4a3.js 
+cache:INFO: generating system asset: symbol_lists/1561edc93976fecf0290195e950df4dea147dbcb.txt... (this will be cached in "/workspaces/test/emsdk/upstream/emscripten/cache/symbol_lists/1561edc93976fecf0290195e950df4dea147dbcb.txt" for subsequent builds)
+cache:INFO:  - ok
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_70587/fast && /usr/bin/make -f CMakeFiles/cmTC_70587.dir/build.make CMakeFiles/cmTC_70587.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70587.dir/src.c.o
+/workspaces/test/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wundef -DC_FLAG_WSHADOW   -Wshadow -o CMakeFiles/cmTC_70587.dir/src.c.o   -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_70587.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70587.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/emcc  -Wall -Wextra -Wundef -DC_FLAG_WSHADOW    @CMakeFiles/cmTC_70587.dir/objects1.rsp  -o cmTC_70587.js 
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cd90b/fast && /usr/bin/make -f CMakeFiles/cmTC_cd90b.dir/build.make CMakeFiles/cmTC_cd90b.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cd90b.dir/src.cxx.o
+/workspaces/test/emsdk/upstream/emscripten/em++    -fexceptions -pthread -Wall -Wextra -Wundef -DCXX_FLAG_WSHADOW   -Wshadow -std=gnu++17 -o CMakeFiles/cmTC_cd90b.dir/src.cxx.o -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cd90b.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd90b.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/em++   -fexceptions -pthread -Wall -Wextra -Wundef -DCXX_FLAG_WSHADOW    @CMakeFiles/cmTC_cd90b.dir/objects1.rsp  -o cmTC_cd90b.js 
+cache:INFO: generating system asset: symbol_lists/bd517d20c1d667187004841c07344478aab40bd5.txt... (this will be cached in "/workspaces/test/emsdk/upstream/emscripten/cache/symbol_lists/bd517d20c1d667187004841c07344478aab40bd5.txt" for subsequent builds)
+cache:INFO:  - ok
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WCAST_ALIGN succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_26a49/fast && /usr/bin/make -f CMakeFiles/cmTC_26a49.dir/build.make CMakeFiles/cmTC_26a49.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26a49.dir/src.c.o
+/workspaces/test/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wundef -Wshadow -DC_FLAG_WCAST_ALIGN   -Wcast-align -o CMakeFiles/cmTC_26a49.dir/src.c.o   -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_26a49.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26a49.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/emcc  -Wall -Wextra -Wundef -Wshadow -DC_FLAG_WCAST_ALIGN    @CMakeFiles/cmTC_26a49.dir/objects1.rsp  -o cmTC_26a49.js 
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WCAST_ALIGN succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf458/fast && /usr/bin/make -f CMakeFiles/cmTC_cf458.dir/build.make CMakeFiles/cmTC_cf458.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf458.dir/src.cxx.o
+/workspaces/test/emsdk/upstream/emscripten/em++    -fexceptions -pthread -Wall -Wextra -Wundef -Wshadow -DCXX_FLAG_WCAST_ALIGN   -Wcast-align -std=gnu++17 -o CMakeFiles/cmTC_cf458.dir/src.cxx.o -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cf458.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf458.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/em++   -fexceptions -pthread -Wall -Wextra -Wundef -Wshadow -DCXX_FLAG_WCAST_ALIGN    @CMakeFiles/cmTC_cf458.dir/objects1.rsp  -o cmTC_cf458.js 
+cache:INFO: generating system asset: symbol_lists/aa56880f2ca466acfc6e27a8933ae2ed6ea5d33f.txt... (this will be cached in "/workspaces/test/emsdk/upstream/emscripten/cache/symbol_lists/aa56880f2ca466acfc6e27a8933ae2ed6ea5d33f.txt" for subsequent builds)
+cache:INFO:  - ok
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WCAST_QUAL succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c51a/fast && /usr/bin/make -f CMakeFiles/cmTC_5c51a.dir/build.make CMakeFiles/cmTC_5c51a.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c51a.dir/src.c.o
+/workspaces/test/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wundef -Wshadow -Wcast-align -DC_FLAG_WCAST_QUAL   -Wcast-qual -o CMakeFiles/cmTC_5c51a.dir/src.c.o   -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5c51a.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c51a.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/emcc  -Wall -Wextra -Wundef -Wshadow -Wcast-align -DC_FLAG_WCAST_QUAL    @CMakeFiles/cmTC_5c51a.dir/objects1.rsp  -o cmTC_5c51a.js 
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WCAST_QUAL succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09b2e/fast && /usr/bin/make -f CMakeFiles/cmTC_09b2e.dir/build.make CMakeFiles/cmTC_09b2e.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_09b2e.dir/src.cxx.o
+/workspaces/test/emsdk/upstream/emscripten/em++    -fexceptions -pthread -Wall -Wextra -Wundef -Wshadow -Wcast-align -DCXX_FLAG_WCAST_QUAL   -Wcast-qual -std=gnu++17 -o CMakeFiles/cmTC_09b2e.dir/src.cxx.o -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_09b2e.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09b2e.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/em++   -fexceptions -pthread -Wall -Wextra -Wundef -Wshadow -Wcast-align -DCXX_FLAG_WCAST_QUAL    @CMakeFiles/cmTC_09b2e.dir/objects1.rsp  -o cmTC_09b2e.js 
+cache:INFO: generating system asset: symbol_lists/c3b57ee25544feb074689a24e917cae12acb980d.txt... (this will be cached in "/workspaces/test/emsdk/upstream/emscripten/cache/symbol_lists/c3b57ee25544feb074689a24e917cae12acb980d.txt" for subsequent builds)
+cache:INFO:  - ok
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WSTRICT_PROTOTYPES succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d10c/fast && /usr/bin/make -f CMakeFiles/cmTC_0d10c.dir/build.make CMakeFiles/cmTC_0d10c.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d10c.dir/src.c.o
+/workspaces/test/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -DC_FLAG_WSTRICT_PROTOTYPES   -Wstrict-prototypes -o CMakeFiles/cmTC_0d10c.dir/src.c.o   -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0d10c.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d10c.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/emcc  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -DC_FLAG_WSTRICT_PROTOTYPES    @CMakeFiles/cmTC_0d10c.dir/objects1.rsp  -o cmTC_0d10c.js 
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /workspaces/test/Play-/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_350fd/fast && /usr/bin/make -f CMakeFiles/cmTC_350fd.dir/build.make CMakeFiles/cmTC_350fd.dir/build
+make[1]: Entering directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_350fd.dir/src.c.o
+/workspaces/test/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_350fd.dir/src.c.o   -c /workspaces/test/Play-/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_350fd.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_350fd.dir/link.txt --verbose=1
+/workspaces/test/emsdk/upstream/emscripten/emcc  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -DCMAKE_HAVE_LIBC_PTHREAD    @CMakeFiles/cmTC_350fd.dir/objects1.rsp  -o cmTC_350fd.js 
+make[1]: Leaving directory '/workspaces/test/Play-/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

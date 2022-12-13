@@ -1,0 +1,2 @@
+/workspaces/test/emsdk/upstream/emscripten/emar qc libFramework_OpenAl.a  CMakeFiles/Framework_OpenAl.dir/__/__/src/openal/Buffer.cpp.o CMakeFiles/Framework_OpenAl.dir/__/__/src/openal/Context.cpp.o CMakeFiles/Framework_OpenAl.dir/__/__/src/openal/Device.cpp.o CMakeFiles/Framework_OpenAl.dir/__/__/src/openal/Source.cpp.o
+/workspaces/test/emsdk/upstream/emscripten/emranlib libFramework_OpenAl.a

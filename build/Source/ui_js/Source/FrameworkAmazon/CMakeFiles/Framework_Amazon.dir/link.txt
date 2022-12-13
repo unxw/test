@@ -1,0 +1,2 @@
+/workspaces/test/emsdk/upstream/emscripten/emar qc libFramework_Amazon.a  CMakeFiles/Framework_Amazon.dir/__/__/src/amazon/AmazonClient.cpp.o CMakeFiles/Framework_Amazon.dir/__/__/src/amazon/AmazonS3Client.cpp.o
+/workspaces/test/emsdk/upstream/emscripten/emranlib libFramework_Amazon.a

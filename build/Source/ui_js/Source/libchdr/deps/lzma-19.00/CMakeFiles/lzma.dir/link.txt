@@ -1,0 +1,2 @@
+/workspaces/test/emsdk/upstream/emscripten/emar qc liblzma.a  CMakeFiles/lzma.dir/src/Alloc.c.o CMakeFiles/lzma.dir/src/Bra86.c.o CMakeFiles/lzma.dir/src/BraIA64.c.o CMakeFiles/lzma.dir/src/CpuArch.c.o CMakeFiles/lzma.dir/src/Delta.c.o CMakeFiles/lzma.dir/src/LzFind.c.o CMakeFiles/lzma.dir/src/Lzma86Dec.c.o CMakeFiles/lzma.dir/src/LzmaDec.c.o CMakeFiles/lzma.dir/src/LzmaEnc.c.o CMakeFiles/lzma.dir/src/Sort.c.o
+/workspaces/test/emsdk/upstream/emscripten/emranlib liblzma.a

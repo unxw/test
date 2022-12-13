@@ -1,0 +1,2 @@
+/workspaces/test/emsdk/upstream/emscripten/emar qc liblibzstd_zlibwrapper_static.a  CMakeFiles/libzstd_zlibwrapper_static.dir/__/__/zstd/zlibWrapper/gzclose.c.o CMakeFiles/libzstd_zlibwrapper_static.dir/__/__/zstd/zlibWrapper/gzlib.c.o CMakeFiles/libzstd_zlibwrapper_static.dir/__/__/zstd/zlibWrapper/gzread.c.o CMakeFiles/libzstd_zlibwrapper_static.dir/__/__/zstd/zlibWrapper/gzwrite.c.o CMakeFiles/libzstd_zlibwrapper_static.dir/__/__/zstd/zlibWrapper/zstd_zlibwrapper.c.o
+/workspaces/test/emsdk/upstream/emscripten/emranlib liblibzstd_zlibwrapper_static.a

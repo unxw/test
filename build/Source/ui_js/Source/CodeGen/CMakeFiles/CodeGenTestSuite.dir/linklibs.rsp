@@ -1,0 +1,1 @@
+ libCodeGen.a ../Framework/libFramework.a ../Framework/libFramework.a ../FrameworkAmazon/libFramework_Amazon.a ../FrameworkAmazon/FrameworkHttp/libFramework_Http.a ../Framework/libFramework.a ../Framework/zstd_zlibwrapper/liblibzstd_zlibwrapper_static.a ../Framework/zstd_zlibwrapper/zstd/lib/libzstd.a ../Framework/zstd_zlibwrapper/zlib-1.2.8/libzlibstatic.a 

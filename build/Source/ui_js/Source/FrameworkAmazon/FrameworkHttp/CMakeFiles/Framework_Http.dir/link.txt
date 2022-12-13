@@ -1,0 +1,2 @@
+/workspaces/test/emsdk/upstream/emscripten/emar qc libFramework_Http.a  CMakeFiles/Framework_Http.dir/__/__/src/http/HttpClient.cpp.o CMakeFiles/Framework_Http.dir/__/__/src/http/HttpClientFactory.cpp.o
+/workspaces/test/emsdk/upstream/emscripten/emranlib libFramework_Http.a

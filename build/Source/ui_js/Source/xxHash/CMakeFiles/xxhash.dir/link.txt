@@ -1,0 +1,2 @@
+/workspaces/test/emsdk/upstream/emscripten/emar qc libxxhash.a  CMakeFiles/xxhash.dir/__/xxhash.c.o
+/workspaces/test/emsdk/upstream/emscripten/emranlib libxxhash.a

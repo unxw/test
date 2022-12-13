@@ -1,0 +1,2 @@
+/workspaces/test/emsdk/upstream/emscripten/emar qc libFramework_OpenGl.a  CMakeFiles/Framework_OpenGl.dir/__/__/src/opengl/Program.cpp.o CMakeFiles/Framework_OpenGl.dir/__/__/src/opengl/Shader.cpp.o
+/workspaces/test/emsdk/upstream/emscripten/emranlib libFramework_OpenGl.a

@@ -1,0 +1,2 @@
+/workspaces/test/emsdk/upstream/emscripten/emar qc libbz2.a  CMakeFiles/bz2.dir/__/__/bzip2-1.0.6/blocksort.c.o CMakeFiles/bz2.dir/__/__/bzip2-1.0.6/huffman.c.o CMakeFiles/bz2.dir/__/__/bzip2-1.0.6/crctable.c.o CMakeFiles/bz2.dir/__/__/bzip2-1.0.6/randtable.c.o CMakeFiles/bz2.dir/__/__/bzip2-1.0.6/compress.c.o CMakeFiles/bz2.dir/__/__/bzip2-1.0.6/decompress.c.o CMakeFiles/bz2.dir/__/__/bzip2-1.0.6/bzlib.c.o
+/workspaces/test/emsdk/upstream/emscripten/emranlib libbz2.a

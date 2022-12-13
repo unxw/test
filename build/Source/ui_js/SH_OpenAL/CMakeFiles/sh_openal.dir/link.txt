@@ -1,0 +1,2 @@
+/workspaces/test/emsdk/upstream/emscripten/emar qc libsh_openal.a  CMakeFiles/sh_openal.dir/__/SH_OpenAL.cpp.o
+/workspaces/test/emsdk/upstream/emscripten/emranlib libsh_openal.a
