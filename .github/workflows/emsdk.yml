@@ -9,5 +9,3 @@ jobs:
 
       - name: Verify
         run: emcc -v
-        version: default
-        
