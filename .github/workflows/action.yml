@@ -1,6 +1,2 @@
 - name: Setup Emscripten
-<<<<<<< HEAD
   uses: lovasoa/setup-emscripten@v1
-=======
-  uses: lovasoa/setup-emscripten@v1
->>>>>>> de0845419a2a3fd7c2554852aab740a73cec18ba
