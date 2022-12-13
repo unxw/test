@@ -1,2 +1,0 @@
-- name: Setup Emscripten
-  uses: lovasoa/setup-emscripten@v1
